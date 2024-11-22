@@ -1,0 +1,60 @@
+/*
+Theme Name: Anevo
+Theme URI: https://themeforest.net/item/anevo-personal-portfolio-wordpress-theme/20801372
+Author: VOIDCODERS
+Author URI: https://themeforest.net/user/voidcoders/
+Description: Anevo - Creative Portfolio, Agency or Personal WordPress Theme for making your personal or company portfolio
+Version: 2.5
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: anevo
+Tags: right-sidebar, custom-colors, featured-images, theme-options, full-width-template
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: polygon(0px 0px, 0px 0px,0px 0px, 0px 0px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+
+/* Site Title instade of logo style */
+
+.site-name {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+}
+.site-description{
+    color: #fff;
+    clear:left;
+    font-size: 14px;
+    margin:0;
+}
+.admin-bar .main-header{
+    top : 32px !important;
+}
+.main-header{
+	background: #000;
+}
+.navigation .navigation-list li.current-menu-item a,.navigation .navigation-list li.current_page_ancestor a {
+    color: #ffcc33;
+}
+
+
+
+/*--------------------------------------------------------------
+Add your Custom CSS here if needed! 
+Or use the theme option custom css or the wp deafult custom css feature to add css (Apparence>Customizer > Custom Css) 
+That way any update to the theme woudn't cause any problem.
+---------------------------------------------------------------*/
